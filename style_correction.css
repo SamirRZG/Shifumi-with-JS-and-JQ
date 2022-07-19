@@ -1,0 +1,51 @@
+body{
+	background: #eee;
+	text-align: center;
+}
+li, article{ 
+	display: inline-block; 
+}
+img{
+	max-width: 35rem;
+}
+nav img{
+	max-width: 10rem;
+}
+a{
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 0.5rem 1.5rem;
+	max-width: 20rem;
+	margin: auto;
+	display: none;
+}
+section{
+	position: relative;
+	max-width: 73rem;
+	min-height: 25rem;
+	margin: 0.5rem auto;
+}
+article{
+	min-width: 35rem;
+}
+aside{
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+
+	-webkit-transform: rotate(350deg); /* chrome, safari, opera */
+	transform: rotate(350deg);
+
+	position: absolute;
+	width: 100%;
+	top: 6rem;
+}
+.youWin, .youLose, .tie{
+	padding: 2rem 5rem;
+}
+.youWin{background: lightgreen;}
+.youLose{background: tomato;}
+.tie{background: grey;}
